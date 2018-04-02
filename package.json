@@ -1,0 +1,35 @@
+{
+  "name": "ffmpeg-generate-video-preview",
+  "version": "0.0.0",
+  "description": "Generates an image strip or GIF preview of a video.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/ffmpeg-generate-video-preview",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava -v && standard"
+  },
+  "bin": {
+    "generate-video-preview": "./index.js"
+  },
+  "keywords": [
+    "ffmpeg",
+    "fluent-ffmpeg",
+    "preview",
+    "screenshots",
+    "gif"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sharp": "^0.20.1",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "execa": "^0.10.0",
+    "ffmpeg-probe": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "rmfr": "^2.0.0",
+    "tempy": "^0.2.1"
+  }
+}
