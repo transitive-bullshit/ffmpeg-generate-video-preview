@@ -10,21 +10,15 @@ generate-video-preview big-buck-bunny-1080p.avi output.jpg -w 160 -r 5 -c 6
 
 ![Image Strip Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg)
 
-<p align="center">
-  Example 6x5 image strip preview (video credit <a href="https://peach.blender.org/download/">Big Buck Bunny</a>).
-</p>
+Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
 
 ```sh
 generate-video-preview big-buck-bunny-1080p.avi media/big-buck-bunny-30.gif -w 320 -n 30 -f 4
 ```
 
-<p align="center">
-  <img width="320" src="https://cdn.rawgit.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif" alt="GIF Example">
-</p>
+![GIF Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif)
 
-<p align="center">
-  Example gif preview with 30 frames(video credit <a href="https://peach.blender.org/download/">Big Buck Bunny</a>).
-</p>
+Example gif preview with 30 frames(video credit [Big Buck Bunny](https://peach.blender.org/download/)).
 
 ## Install
 
