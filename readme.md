@@ -32,7 +32,7 @@ Example 6x5 image strip preview with black padding and margin.
 generate-video-preview big-buck-bunny.avi media/big-buck-bunny-30.gif --width 320 --num-frames 30 --fps 4
 ```
 
-Example gif preview with 30 frames.
+Example gif preview with 30 frames at 4 fps.
 
 ---
 
