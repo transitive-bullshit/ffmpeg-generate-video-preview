@@ -4,14 +4,26 @@
 
 [![NPM](https://img.shields.io/npm/v/ffmpeg-generate-video-preview.svg)](https://www.npmjs.com/package/ffmpeg-generate-video-preview) [![Build Status](https://travis-ci.org/transitive-bullshit/ffmpeg-generate-video-preview.svg?branch=master)](https://travis-ci.org/transitive-bullshit/ffmpeg-generate-video-preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+```sh
+generate-video-preview big-buck-bunny-1080p.avi output.jpg -w 160 -r 5 -c 6
+```
+
 ![Image Strip Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg)
 
 <p align="center">
-  <img width="640" src="https://cdn.rawgit.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg" alt="Image Strip Example">
+  Example 6x5 image strip preview (video credit <a href="https://peach.blender.org/download/">Big Buck Bunny</a>).
 </p>
+
+```sh
+generate-video-preview big-buck-bunny-1080p.avi media/big-buck-bunny-30.gif -w 320 -n 30 -f 4
+```
 
 <p align="center">
   <img width="320" src="https://cdn.rawgit.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif" alt="GIF Example">
+</p>
+
+<p align="center">
+  Example gif preview with 30 frames(video credit <a href="https://peach.blender.org/download/">Big Buck Bunny</a>).
 </p>
 
 ## Install
@@ -196,3 +208,4 @@ Optional function to log the underlying ffmpeg and gifski command(s). You may, f
 ## License
 
 MIT © [Travis Fischer](https://github.com/transitive-bullshit)
+
