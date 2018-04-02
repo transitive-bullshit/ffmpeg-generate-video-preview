@@ -1,6 +1,6 @@
 # ffmpeg-generate-video-preview
 
-> Generates an attractive image strip or GIF preview of a video.
+> Generates an attractive image strip or GIF preview from a video.
 
 [![NPM](https://img.shields.io/npm/v/ffmpeg-generate-video-preview.svg)](https://www.npmjs.com/package/ffmpeg-generate-video-preview) [![Build Status](https://travis-ci.org/transitive-bullshit/ffmpeg-generate-video-preview.svg?branch=master)](https://travis-ci.org/transitive-bullshit/ffmpeg-generate-video-preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
