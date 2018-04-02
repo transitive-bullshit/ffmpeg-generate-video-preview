@@ -4,6 +4,38 @@
 
 [![NPM](https://img.shields.io/npm/v/ffmpeg-generate-video-preview.svg)](https://www.npmjs.com/package/ffmpeg-generate-video-preview) [![Build Status](https://travis-ci.org/transitive-bullshit/ffmpeg-generate-video-preview.svg?branch=master)](https://travis-ci.org/transitive-bullshit/ffmpeg-generate-video-preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+---
+
+![Image Strip Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg)
+
+```sh
+generate-video-preview big-buck-bunny.avi output.jpg --width 160 --rows 5 --cols 6
+```
+
+Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
+
+---
+
+![Image Strip Example with Padding](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5-padding.jpg)
+
+```sh
+generate-video-preview big-buck-bunny.avi output.jpg --width 160 --rows 5 --cols 6 --padding 4 --margin 4
+```
+
+Example 6x5 image strip preview with black padding and margin.
+
+---
+
+![GIF Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif)
+
+```sh
+generate-video-preview big-buck-bunny.avi media/big-buck-bunny-30.gif --width 320 --num-frames 30 --fps 4
+```
+
+Example gif preview with 30 frames.
+
+---
+
 ## Install
 
 ```bash
@@ -42,38 +74,6 @@ brew install gifski
     -F, --gif-fast                enable gifski fast mode
     -h, --help                    output usage information
 ```
-
----
-
-![Image Strip Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg)
-
-```sh
-generate-video-preview big-buck-bunny-1080p.avi output.jpg --width 160 --rows 5 --cols 6
-```
-
-Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
-
----
-
-![Image Strip Example with Padding](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5-padding.jpg)
-
-```sh
-generate-video-preview big-buck-bunny-1080p.avi output.jpg --width 160 --rows 5 --cols 6 --padding 4 --margin 4
-```
-
-Example 6x5 image strip preview with black padding and margin.
-
----
-
-![GIF Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif)
-
-```sh
-generate-video-preview big-buck-bunny-1080p.avi media/big-buck-bunny-30.gif --width 320 --num-frames 30 --fps 4
-```
-
-Example gif preview with 30 frames.
-
----
 
 ## Usage
 
