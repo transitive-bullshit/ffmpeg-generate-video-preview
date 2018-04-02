@@ -8,21 +8,31 @@
 
 ![Image Strip Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg)
 
-Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
-
 ```sh
 generate-video-preview big-buck-bunny-1080p.avi output.jpg -w 160 -r 5 -c 6
 ```
+
+Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
+
+---
+
+![Image Strip Example with Padding](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5-padding.jpg)
+
+```sh
+generate-video-preview big-buck-bunny-1080p.avi output.jpg -w 160 -r 5 -c 6 -P 4 -M 4
+```
+
+Example 6x5 image strip preview with black padding and margin.
 
 ---
 
 ![GIF Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif)
 
-Example gif preview with 30 frames (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
-
 ```sh
 generate-video-preview big-buck-bunny-1080p.avi media/big-buck-bunny-30.gif -w 320 -n 30 -f 4
 ```
+
+Example gif preview with 30 frames.
 
 ---
 
@@ -208,4 +218,3 @@ Optional function to log the underlying ffmpeg and gifski command(s). You may, f
 ## License
 
 MIT © [Travis Fischer](https://github.com/transitive-bullshit)
-
