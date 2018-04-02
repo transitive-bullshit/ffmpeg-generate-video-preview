@@ -29,7 +29,7 @@ Example 6x5 image strip preview with black padding and margin.
 ![GIF Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif)
 
 ```sh
-generate-video-preview big-buck-bunny.avi media/big-buck-bunny-30.gif --width 320 --num-frames 30 --fps 4
+generate-video-preview big-buck-bunny.avi output.gif --width 320 --num-frames 30 --fps 4
 ```
 
 Example gif preview with 30 frames at 4 fps.
