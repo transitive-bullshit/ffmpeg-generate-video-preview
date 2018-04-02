@@ -45,7 +45,9 @@ npm install --save ffmpeg-generate-video-preview
 npm install -g ffmpeg-generate-video-preview
 ```
 
-If you want to generate GIFs, you must first install [gifski](https://gif.ski/). On Mac OS, you may run:
+This module requires [ffmpeg](http://ffmpeg.org/) to be installed.
+
+If you want to generate GIFs, you must also install [gifski](https://gif.ski/). On Mac OS, you can run
 
 ```sh
 brew install gifski
