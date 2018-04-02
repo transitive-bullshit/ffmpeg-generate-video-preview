@@ -6,15 +6,17 @@
 
 ---
 
+Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
+
 ![Image Strip Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5.jpg)
 
 ```sh
 generate-video-preview big-buck-bunny.avi output.jpg --width 160 --rows 5 --cols 6
 ```
 
-Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.blender.org/download/)).
-
 ---
+
+Example 6x5 image strip preview with black padding and margin.
 
 ![Image Strip Example with Padding](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-6x5-padding.jpg)
 
@@ -22,17 +24,15 @@ Example 6x5 image strip preview (video credit [Big Buck Bunny](https://peach.ble
 generate-video-preview big-buck-bunny.avi output.jpg --width 160 --rows 5 --cols 6 --padding 4 --margin 4
 ```
 
-Example 6x5 image strip preview with black padding and margin.
-
 ---
+
+Example gif preview with 30 frames at 4 fps.
 
 ![GIF Example](https://raw.githubusercontent.com/transitive-bullshit/ffmpeg-generate-video-preview/master/media/big-buck-bunny-30.gif)
 
 ```sh
 generate-video-preview big-buck-bunny.avi output.gif --width 320 --num-frames 30 --fps 4
 ```
-
-Example gif preview with 30 frames at 4 fps.
 
 ---
 
