@@ -216,6 +216,7 @@ Optional function to log the underlying ffmpeg and gifski command(s). You may, f
 - [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to [FFmpeg](http://ffmpeg.org/).
 - [gifski](https://gif.ski/) - High quality GIF encoder.
 - [ffmpeg tutorial](https://www.binpress.com/tutorial/how-to-generate-video-previews-with-ffmpeg/138) - Related blog post by Martin Sikora from 2014.
+- [ffmpeg-extract-frames](https://github.com/transitive-bullshit/ffmpeg-extract-frames) - Extracts frames from a video using [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg).
 
 ## License
 
