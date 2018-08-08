@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-generate-video-preview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates an attractive image strip or GIF preview from a video.",
   "main": "index.js",
   "repository": "transitive-bullshit/ffmpeg-generate-video-preview",
